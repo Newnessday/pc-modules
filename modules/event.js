@@ -1,9 +1,3 @@
-/**
- * @fileOverview 事件绑定
- * @time 2016/5/23
- * @author liugang
- * */
-
 let event={
 
     //绑定事件
