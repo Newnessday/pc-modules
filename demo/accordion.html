@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>手风琴</title>
+    <style>
+        #accordion{
+            margin: 0 auto;
+            width: 980px;
+            height: 360px;
+            overflow: hidden;
+            list-style: none;
+        }
+        #accordion li{
+            width: 60px;
+            float: left;
+            cursor: pointer;
+        }
+        #accordion .active{
+            width: 800px;
+        }
+        #accordion1{
+            width: 800px;
+            list-style: none;
+        }
+        #accordion1 li{
+            height: 60px;
+            overflow: hidden;
+            cursor: pointer;
+        }
+        #accordion1 .active{
+            height: 360px;
+        }
+    </style>
+</head>
+<body>
+
+    <ul id="accordion">
+        <li>
+            <img src="../image/1.jpg"/>
+        </li>
+        <li>
+            <img src="../image/2.jpg"/>
+        </li>
+        <li>
+            <img src="../image/3.jpg"/>
+        </li>
+        <li>
+            <img src="../image/4.jpg"/>
+        </li>
+    </ul>
+    <ul id="accordion1">
+        <li class="active">
+            <img src="../image/1.jpg"/>
+        </li>
+        <li>
+            <img src="../image/2.jpg"/>
+        </li>
+        <li>
+            <img src="../image/3.jpg"/>
+        </li>
+        <li>
+            <img src="../image/4.jpg"/>
+        </li>
+    </ul>
+
+    <script src="../build/accordion.js"></script>
+
+</body>
+</html>
